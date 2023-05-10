@@ -1,6 +1,6 @@
 I was able to make a few changes to the core.py file of the original RL 2 library which allowed it to work with Gymnasium 0.28.1. Basically the output of reset() and step() no longer match the expected inputs of gymnasium, so it was only a few lines needing changes to get it to work.
 
-Otherwise this is exactly the same as the archives Keras-rl2 library.
+Otherwise this is exactly the same as the archived Keras-rl2 library.
 
 ### NOTE: Requires tensorflow==2.1.0
 
